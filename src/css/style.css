@@ -1,0 +1,64 @@
+
+/* Formatação padrão zerado */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    margin: 0;
+    height: 100%;
+}
+
+/* ------- HEADER -------- */
+
+#header{
+    position: relative;
+    height: 700px;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(../../imagens/foto\ 1.jpg);
+}
+
+#titulo-header{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.titulo-danna{
+    color: #FF82AB;
+    font-size: 8em;
+    font-family: American Typewriter, serif;
+}
+
+.titulo-tentis{
+    color: #00FFFF;
+    font-size: 10em;
+    font-family: serif;
+}
+
+#nav{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navegacao-header li{
+    float: left;
+}
+
+#navegacao-header a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
