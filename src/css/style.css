@@ -143,3 +143,12 @@ e também dentro de elemento com id "navegacao-header" */
     font-family: latolight,sans-serif;
     line-height: 1.62;
 }
+
+/* Elemento com id "foto-main" */
+#foto-main{
+    height: 650px;
+    background-image: url(../../imagens/foto\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
