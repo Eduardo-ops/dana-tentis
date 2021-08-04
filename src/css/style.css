@@ -29,20 +29,35 @@ body,html{
     position: absolute;
     top: 10%;
     left: 10%;
+    border: 1px solid #fff;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* Fontes externas */
+@font-face {
+    font-family: "Lion King";
+    src: url(../../fontes/AnyConv.com__lion_king.woff);
 }
 
 /* Elemento com classe "titulo-danna" */
 .titulo-danna{
     color: #FF82AB;
     font-size: 8em;
-    font-family: American Typewriter, serif;
+    font-family: Lion King;
+}
+
+/* Fontes externas */
+@font-face {
+    font-family: "Adelia";
+    src: url(../../fontes/AnyConv.com__adelia.woff);
 }
 
 /* Elemento com classe "titulo-tentis" */
 .titulo-tentis{
     color: #00FFFF;
-    font-size: 10em;
-    font-family: serif;
+    font-size: 8em;
+    font-family: Adelia;
 }
 
 /* Elemento com id "nav" */
