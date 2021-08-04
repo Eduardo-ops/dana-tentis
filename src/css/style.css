@@ -120,7 +120,7 @@ e também dentro de elemento com id "navegacao-header" */
 /* Elemento com id "container-main" */
 #container-main{
     margin: 0 auto;
-    width: 720px;
+    width: 40%;
     text-align: center;
 }
 
