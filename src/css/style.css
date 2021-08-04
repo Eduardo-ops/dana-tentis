@@ -80,6 +80,11 @@ ul{
     list-style: none;
 }
 
+/* Todo elemento <a> por padrão sem decoração de texto */
+a{
+    text-decoration: none;
+}
+
 /* Elemento <a> dentro de elemento com id "navegacao-header" */
 #navegacao-header li a{
     color: #000;
