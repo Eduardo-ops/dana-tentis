@@ -1,5 +1,5 @@
 
-/* Formatação padrão zerado */
+/* Formatação de padding e margin padrão zerado */
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@ body,html{
 
 /* ------- HEADER -------- */
 
+/* Elemento com id "header" */
 #header{
     position: relative;
     height: 700px;
@@ -23,42 +24,58 @@ body,html{
     background-image: url(../../imagens/foto\ 1.jpg);
 }
 
+/* Elemento com id "titulo-header" */
 #titulo-header{
     position: absolute;
     top: 10%;
     left: 10%;
 }
 
+/* Elemento com classe "titulo-danna" */
 .titulo-danna{
     color: #FF82AB;
     font-size: 8em;
     font-family: American Typewriter, serif;
 }
 
+/* Elemento com classe "titulo-tentis" */
 .titulo-tentis{
     color: #00FFFF;
     font-size: 10em;
     font-family: serif;
 }
 
+/* Elemento com id "nav" */
 #nav{
     position: absolute;
-    top: 80%;
+    top: 85%;
     width: 100%;
+    text-align: center;
 }
 
+/* Elemento <ul> estilizada */
 ul{
     margin: 0;
     padding: 0;
+}
+
+/* Elemento <li> dentro de elemento com id "navegacao-header" */
+#navegacao-header li{
+    display: inline-block;
     list-style: none;
 }
 
-#navegacao-header li{
-    float: left;
-}
-
-#navegacao-header a{
-    color: white;
+/* Elemento <a> dentro de elemento com id "navegacao-header" */
+#navegacao-header li a{
+    color: #000000;
+    margin-right: 40px;
+    padding: 10px;
     display: block;
     text-decoration: none;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
 }
