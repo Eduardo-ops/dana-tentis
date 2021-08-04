@@ -28,7 +28,7 @@ body,html{
 #titulo-header{
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 6%;
     border: 1px solid #fff;
     border-top: none;
     border-bottom: none;
@@ -88,14 +88,14 @@ a{
 /* Elemento <a> dentro de elemento com id "navegacao-header" */
 #navegacao-header li a{
     color: #000;
-    margin-right: 40px;
+    margin-right: 60px;
     padding: 10px;
     display: block;
     text-decoration: none;
     font-size: 1.5em;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-left: none;
     border-right: none;
 }
@@ -104,7 +104,7 @@ a{
 e também dentro de elemento com id "navegacao-header" */
 #navegacao-header li a:hover{
     color: #FF0000;
-    border: 2px solid #000;
+    border: 1px solid #000;
     border-left: none;
     border-right: none;
 }
