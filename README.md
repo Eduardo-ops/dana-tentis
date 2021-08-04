@@ -1,7 +1,7 @@
 # danna-tentis
 Projeto web para modelo feminina, desenvolvido em html e css, projeto próprio a fim de colocar em prática conceitos de aprendizagem em curso.
 
-![image](https://user-images.githubusercontent.com/54048170/128268503-8178ffe5-6e51-43cb-805a-5376453d1eb4.png)
+![image](https://user-images.githubusercontent.com/54048170/128268631-a273a185-6929-4d75-86ec-9138a62412c1.png)
 
 ![image](https://user-images.githubusercontent.com/54048170/128268518-c9ce24d0-e36c-4046-9eed-1546b0c5f308.png)
 
