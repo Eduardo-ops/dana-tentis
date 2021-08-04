@@ -67,7 +67,7 @@ ul{
 
 /* Elemento <a> dentro de elemento com id "navegacao-header" */
 #navegacao-header li a{
-    color: #000000;
+    color: #000;
     margin-right: 40px;
     padding: 10px;
     display: block;
@@ -75,7 +75,14 @@ ul{
     font-size: 1.5em;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+
+#navegacao-header li a:hover{
+    color: #FF0000;
+    border: 2px solid #000;
     border-left: none;
     border-right: none;
 }
