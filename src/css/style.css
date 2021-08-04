@@ -95,9 +95,46 @@ ul{
     border-right: none;
 }
 
+/* Elemento <a> em estado de hover dentro de elemento <li> 
+e também dentro de elemento com id "navegacao-header" */
 #navegacao-header li a:hover{
     color: #FF0000;
     border: 2px solid #000;
     border-left: none;
     border-right: none;
+}
+
+/* -------- Container Principal ----------- */
+
+/* Elemento com id "divisoria" */
+#divisoria{
+    background: #000;
+    height: 40px;
+}
+
+/* Elemento com id "container-main" */
+#container-main{
+    margin: 0 auto;
+    width: 720px;
+    text-align: center;
+}
+
+/* Elemento com id "sobre" */
+#sobre{
+    margin: 50px 0 20px 0;
+}
+
+/* Elemento <h2> dentro de elemento com id "container-main" */
+#container-main h2{
+    margin-bottom: 26px;
+    font-size: 19px;
+    font-family: latobold,sans-serif;
+    letter-spacing: 0.1em;
+}
+
+/* Elemento <p> dentro de elemento com id "container-main" */
+#container-main p{
+    font-size: 15px;
+    font-family: latolight,sans-serif;
+    line-height: 1.62;
 }
