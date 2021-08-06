@@ -125,7 +125,7 @@ e também dentro de elemento com id "navegacao-header" */
 }
 
 /* Elemento com id "sobre" */
-#sobre{
+#caixa-conteudo{
     margin: 50px 0 20px 0;
 }
 
@@ -145,12 +145,54 @@ e também dentro de elemento com id "navegacao-header" */
 }
 
 /* Elemento com id "foto-main" */
-#foto-main{
+#caixa-imagem{
     height: 650px;
     background-image: url(../../imagens/foto\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* ----------- BIOGRAFIA ----------- */
+
+.caixa-main{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+.caixa-conteudo{
+    margin: 50px 0 20px 0;
+}
+
+.caixa-conteudo h2{
+    margin-bottom: 26px;
+    font-size: 19px;
+    font-family: latobold,sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.caixa-conteudo p{
+    font-size: 15px;
+    font-family: latolight,sans-serif;
+    line-height: 1.62;
+}
+
+.caixa-imagem-1, .caixa-imagem-2{
+    height: 850px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.caixa-imagem-1{
+    background-image: url(../../imagens/foto\ 3.jpg);
+}
+
+.caixa-imagem-2{
+    background-image: url(../../imagens/foto\ 4.jpg);
 }
 
 /* Elemento com id "footer" */
