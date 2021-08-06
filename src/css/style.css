@@ -109,6 +109,17 @@ e também dentro de elemento com id "navegacao-header" */
     border-right: none;
 }
 
+#home #nav #navegacao-header a.home,
+#biografia #nav #navegacao-header a.biografia,
+#campanhas #nav #navegacao-header a.campanhas,
+#contato #nav #navegacao-header a.contato
+{
+    color: #FF0000;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
 /* -------- Container Principal ----------- */
 
 /* Elemento com id "divisoria" */
