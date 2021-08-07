@@ -166,16 +166,19 @@ e também dentro de elemento com id "navegacao-header" */
 
 /* ----------- BIOGRAFIA ----------- */
 
+/* Elemento com classe "caixa-main" */
 .caixa-main{
     margin: 0 auto;
     width: 40%;
     text-align: center;
 }
 
+/* Elemento com classe "caixa-conteudo" */
 .caixa-conteudo{
     margin: 50px 0 20px 0;
 }
 
+/* Elemento <h2> dentro de elemento com classe "caixa-conteudo" */
 .caixa-conteudo h2{
     margin-bottom: 26px;
     font-size: 19px;
@@ -183,12 +186,14 @@ e também dentro de elemento com id "navegacao-header" */
     letter-spacing: 0.1em;
 }
 
+/* Elemento <p> dentro de elemento com classe "caixa-conteudo" */
 .caixa-conteudo p{
     font-size: 15px;
     font-family: latolight,sans-serif;
     line-height: 1.62;
 }
 
+/* Elementos que tiver as classes "caixa-imagem-1" ou "caixa-imagem-2" */
 .caixa-imagem-1, .caixa-imagem-2{
     height: 850px;
     opacity: 0.7;
@@ -198,10 +203,12 @@ e também dentro de elemento com id "navegacao-header" */
     background-position: center;
 }
 
+/* Elemento com classe "caixa-imagem-1" */
 .caixa-imagem-1{
     background-image: url(../../imagens/foto\ 3.jpg);
 }
 
+/* Elemento com classe "caixa-imagem-2" */
 .caixa-imagem-2{
     background-image: url(../../imagens/foto\ 4.jpg);
 }
