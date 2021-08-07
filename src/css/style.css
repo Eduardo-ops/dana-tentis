@@ -216,6 +216,36 @@ e também dentro de elemento com id "navegacao-header" */
     background-image: url(../../imagens/foto\ 4.jpg);
 }
 
+/* -------- CAMPANHAS PUBLICITÁRIAS */
+
+/* Elemento com id "#main-campanhas" */
+#main-campanhas{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Elemento com classe ".caixa" */
+.caixa{
+    margin: 20px 0;
+    font-size: 15px;
+    font-family: latolight,sans-serif;
+}
+
+/* Elemento <h1> com elemento com id "#main-campanhas" */
+#main-campanhas h1{
+    color: #FF82AB;
+    font-size: 19px;
+    font-family: latolight,sans-serif;
+}
+
+/* Elemento com classe ".img-campanha" */
+.img-campanha{
+    border: 10px solid #CDCDB4;
+    margin-top: 20px;
+    width: 100%;
+}
+
 /* Elemento com id "footer" */
 #footer{
     background: #363636;
