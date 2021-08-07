@@ -265,9 +265,19 @@ e também dentro de elemento com id "navegacao-header" */
 
 /* Elemento com classe "caixa" dentro de elemento com id "main-contato" */
 #main-contato .caixa{
-    padding: 60px;
+    padding: 40px;
     text-align: left;
     color: #656565;
+}
+
+/* Elemento com id "img-contato" */
+#img-contato{
+    width: 100%;
+    height: 500px;
+    background-image: url(../../imagens/foto\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Elemento com id "footer" */
