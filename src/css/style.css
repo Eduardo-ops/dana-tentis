@@ -16,6 +16,7 @@ body,html{
 #header{
     position: relative;
     height: 700px;
+    width: 100%;
     opacity: 0.8;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,6 +159,7 @@ e também dentro de elemento com id "navegacao-header" */
 /* Elemento com id "foto-main" */
 #caixa-imagem{
     height: 650px;
+    width: 100%;
     background-image: url(../../imagens/foto\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,6 +198,7 @@ e também dentro de elemento com id "navegacao-header" */
 /* Elementos que tiver as classes "caixa-imagem-1" ou "caixa-imagem-2" */
 .caixa-imagem-1, .caixa-imagem-2{
     height: 850px;
+    width: 100%;
     opacity: 0.7;
     background-repeat: no-repeat;
     background-size: cover;
