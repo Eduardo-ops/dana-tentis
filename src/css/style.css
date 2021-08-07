@@ -246,6 +246,30 @@ e também dentro de elemento com id "navegacao-header" */
     width: 100%;
 }
 
+/* -------- CONTATO ---------- */
+
+/* Elemento com id "main-contato" */
+#main-contato{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px;
+    text-align: center;
+}
+
+/* Elemento <h1> dentro de elemento com id "main-contato" */
+#main-contato h1{
+    font-size: 36px;
+    font-family: latolight,sans-serif;
+    font-weight: bold;
+}
+
+/* Elemento com classe "caixa" dentro de elemento com id "main-contato" */
+#main-contato .caixa{
+    padding: 60px;
+    text-align: left;
+    color: #656565;
+}
+
 /* Elemento com id "footer" */
 #footer{
     background: #363636;
